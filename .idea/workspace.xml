@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa482819-f626-49a0-b948-6fd82c7b0f20" name="Default" comment="" />
+    <list default="true" id="fa482819-f626-49a0-b948-6fd82c7b0f20" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CreateNewMovie.js" afterPath="$PROJECT_DIR$/Create.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GetMovie.js" afterPath="$PROJECT_DIR$/Read.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MoviesLoadData.js" afterPath="$PROJECT_DIR$/LoadDataFromExternalJSON.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/UpdateMovie.js" afterPath="$PROJECT_DIR$/Update.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/createMovieTable.js" afterPath="$PROJECT_DIR$/createTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="dynamoDB.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,8 +30,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MoviesLoadData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoviesLoadData.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -32,31 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateNewMovie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateNewMovie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetMovie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetMovie.js">
+      <file leaf-file-name="moviedata.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moviedata.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateMovie.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UpdateMovie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,6 +58,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -97,7 +88,7 @@
     <option name="width" value="1280" />
     <option name="height" value="796" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -778,12 +769,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1466588187291</updated>
-      <workItem from="1466588188913" duration="1219000" />
+      <workItem from="1466588188913" duration="1521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1219000" />
+    <option name="totallyTimeSpent" value="1521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="796" extended-state="6" />
@@ -839,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GetMovie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UpdateMovie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -864,6 +847,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Cayden.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetMovie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moviedata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
